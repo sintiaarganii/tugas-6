@@ -1,0 +1,188 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> -->
+    <!-- <form action="login.js" method="GET">
+    form field di sini mksdnya adalah menyuruh login.js untuk meakses form-->
+    <!-- </form>   -->
+        <!-- username : <input type="text" name="info" /> 
+        <input type="checkbox">
+        <input type="date">
+        <label for="cars">Pilih Teman Belajar : </label>
+        <select id="cars" name="cars" size="4">
+        <option value="volvo">Afi naufal</option>
+        <option value="saab">Imelda pacar aang</option>
+        <option value="fiat">Dedy</option>
+        <option value="audi">Aiedi</option>
+        <option value="audi">Sintia</option>
+        <option value="audi">efengsi</option>
+        </select>
+
+        <input type="text" placeholder="     masukkan username ">
+        <input type="color">
+        <input type="email">
+        <input type="radio">
+        <input type="reset"> </label>
+        <input type="time">
+
+        <textarea name="message" rows="5" cols="30">Ini adalah elemen teks
+            area yang memiliki 10 baris
+            1. baris pertama
+            2. baris kedua
+            3. baris ketiga
+            4. baris keempat
+            </textarea>
+
+            <form action="proses.js">
+                <fieldset>
+                <legend>Biodata</legend>
+                <label for="fname">Nama Depan :</label><br>
+                <input type="text" id="fname" name="fname" ><br>
+                <label for="lname">Nama Belakang :</label><br>
+                <input type="text" id="lname" name="lname" ><br><br>
+                <input type="submit" value="Kirim">
+                </fieldset>
+                </form>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Form</title>
+    <style>
+        form {
+            width: 300px; /* Adjust the width as needed */
+            margin: auto; /* Center the form on the page */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px; /* Adjust font size as needed */
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            font-size: 14px; /* Adjust font size as needed */
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            padding: 5px 10px;
+            font-size: 14px; /* Adjust font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <form action="proses.js">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="fname">Nama Depan :</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Nama Belakang :</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Kirim">
+        </fieldset>
+    </form>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Formulir Pendaftaran</h2>
+    <form action="submit_form.html" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Kata Sandi:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="gender">Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="gender" value="Laki-laki" required>
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="Perempuan" required>
+        <label for="perempuan">Perempuan</label>
+
+        <label for="hobi">Hobi:</label>
+        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+        <label for="olahraga">Olahraga</label>
+        <input type="checkbox" id="musik" name="hobi" value="Musik">
+        <label for="musik">Musik</label>
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+        <label for="membaca">Membaca</label>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>
